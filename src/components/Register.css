@@ -1,0 +1,24 @@
+/* Styling for Login Form */
+.registerForm {
+    float: none;
+    margin: 0 auto;
+    text-align: justify;
+    min-width: 300px;
+    padding-bottom: 10rem;
+    padding-top: 3rem;
+}
+
+.registerInput {
+    max-width: 300px;
+    border-radius: 6px;
+}
+
+/*  Styling for Error Alerts*/
+.registerAlert {
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+    border-radius: 6px;
+    text-align: center;
+}

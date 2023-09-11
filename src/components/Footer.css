@@ -1,0 +1,87 @@
+.footer-parent-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: column;
+    width:100%;
+    position: relative;
+    align-items: center;
+    background-color: #666565;
+    }
+    
+    .footer-child-container {
+    color: rgb(255, 255, 255);
+    background-color: #666565;
+    display: flex;
+       /*review what this does*/
+    }
+    
+    .columns-div {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    }
+    
+    .signup {
+    display: flex;
+    background-color: #666565;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 1rem;
+    margin: 1rem;
+    }
+    
+    /*need to change fonts- I think its Arial */
+    .columnheading {
+      font-style: normal;
+      font-size: 1.125rem;
+      color: rgb(255, 255, 255);
+      font-weight: bold;
+    }
+    .columnheading h4 {
+      font-size: 1.125rem;
+    }
+    
+    .column-product, .column-shop, .column-support, .column-about, .column-Resources {
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    margin: 1rem;
+    }
+    
+    .column-product ul, .column-shop ul, .column-support ul, .column-about ul, .column-Resources ul {
+    cursor: pointer;
+    list-style-type: none;
+    }
+    
+    .link-items {
+    margin-top: .7rem;
+    }
+    
+    /* .signup-column {
+    
+    }
+    
+    .footer-social-icons {
+    
+    } */
+    
+    .footer-container {
+    background-color: #333;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    }
+    
+    .bottom-container-inner {
+    color: white;
+    display: flex;
+    padding-top: 1rem;
+    }
+    .bottom-link-items {
+    margin: .5rem;
+    display: flex;
+    letter-spacing: .037rem;
+    cursor: pointer;
+    }
+    

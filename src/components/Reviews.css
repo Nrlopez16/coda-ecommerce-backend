@@ -1,0 +1,43 @@
+/* Styling for Review Form */
+.reviewForm {
+    float: none;
+    margin: 0 auto;
+    text-align: center;
+    min-width: 300px;
+}
+
+.formInput {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+    border-radius: 6px;
+}
+
+/*  Styling for Error Alerts*/
+.reviewAlerts {
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.submitBtn {
+    padding: 12px 20px;
+    font-size: 14px;
+    border-radius: 60px;
+    line-height: 1em;
+    letter-spacing: 1px;
+}
+
+.reviewImg {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    width: '14rem';
+    /* height: '18rem';
+    margin: '1rem'; 
+    box-Shadow: '0 6px 10px -5px' */
+}

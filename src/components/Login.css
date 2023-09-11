@@ -1,0 +1,42 @@
+/* Styling for Login Form */
+    .loginForm {
+        float: none;
+        margin: 0 auto;
+        text-align: center;
+        min-width: 300px;
+        padding-bottom: 10rem;
+        padding-top: 3rem;
+    }
+
+    .loginInput {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 300px;
+        border-radius: 6px;
+    }
+
+/*  Styling for Error Alerts*/
+    .loginAlerts {
+        margin-top: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 300px;
+        border-radius: 6px;
+        text-align: center;
+    }
+
+    .loginBtn {
+        padding: 12px 20px;
+        font-size: 14px;
+        border-radius: 60px;
+        line-height: 1em;
+        letter-spacing: 1px;
+    }
+
+    .loginImg {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        position: relative;
+        width: 100%;
+    }
